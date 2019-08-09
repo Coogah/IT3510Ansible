@@ -1,0 +1,35 @@
+- name: Install packages
+  apt: name={{item}}
+  with_items:
+          - rkhunter
+          - libpam-cracklib
+          - rcconf
+          - auditd
+          - bind9
+          - traceroute
+          - ldap-auth-client
+          - nscd
+          - slapd
+          - ldap-utils
+          - screen-profiles
+          - ntp
+          - sshfs
+          - nfs-kernel-server
+          - nfs-common
+          - samba
+          - cifs-utils
+          - snmpd
+          - snmp
+          - sysstat
+          - tshark
+          - rng-tools
+          - docker
+          - dockerio
+          - tomcat8
+          - tomcat8-admin
+          - tomcat8-common
+          - tomcat8-docs
+          - tomcat8-examples
+          - tomcat8-user
+          - libapache2-mod-jk
+          - squirrelmail
