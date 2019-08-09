@@ -24,7 +24,7 @@
           - tshark
           - rng-tools
           - docker
-          - dockerio
+          - docker-io
           - tomcat8
           - tomcat8-admin
           - tomcat8-common
